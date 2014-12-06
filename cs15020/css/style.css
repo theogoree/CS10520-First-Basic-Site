@@ -1,0 +1,155 @@
+
+/* Menu Bar Style Components */
+
+#menu 
+{
+	width: 17%;
+	float: left;
+	border: 3px solid #000000;
+	border-right: 5px solid #000000;
+	border-left: 0px;
+	width: 133px;
+	box-shadow: 5px 5px 2.5px #999999;
+}
+
+ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+a:link
+{
+	display:block;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#999999;
+	width:127px;
+	height:75px;
+	text-align:center;
+	padding:4px;
+	text-transform:uppercase;
+}
+
+a:hover
+{
+	background-color:#336699;
+	color:#FFFFFF;
+}
+
+/* Standard Text Style Components */
+
+h1
+{
+	text-align: center;
+	text-shadow: 5px 5px 5px #336699;
+
+}
+
+h2
+{
+	text-align: center;
+	text-shadow: 5px 5px 5px #336699;
+}
+
+h6
+{
+	text-align: center;
+	font-size: 25px;
+}
+
+/* Standard Page Layout Style Components */
+
+body
+{
+	background-color: #336699;
+	color: #FFFFFF;
+	font-family: "MS Comic Sans", sans-serif;
+	text-shadow: 1px 1px 2px rgba( 0, 0, 0, 0.33 );
+}
+
+#container
+{
+	width:75%;
+	height: 100%;
+	background-color: #666666;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: left;
+	border-top: 5px solid #000000;
+	border-bottom: 5px solid #000000;
+	border-left: 5px solid #000000; 
+	border-right: 5px solid #000000;
+	box-shadow: 10px 10px 5px #999999;
+	border-radius:55px;
+}
+
+footer
+{
+	padding:15px;
+}
+	
+#form
+{
+	border: 2px solid #000000;
+	border-radius:55px;
+	box-shadow: 10px 10px 5px #999999;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+
+#about
+{
+	padding-left: 15%;
+	width: 85%;
+	min-height: 445px;
+	background-color: #666666;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+#content
+{
+	padding-left: 15%;
+	width: 85%;
+	min-height: 445px;
+	background-color: #666666;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+#cv
+{
+	padding-left: 15%;
+	width: 85%;
+	min-height: 445px;
+	background-color: #666666;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+#w3css
+{
+	display:block;
+	font-weight:bold;
+	width:120px;
+	height:75px;
+	text-align:center;
+	padding:4px;
+	background-color: #666666;
+}
+
+#w3html
+{
+	display:block;
+	font-weight:bold;
+	width:120px;
+	height:75px;
+	text-align:center;
+	padding:4px;
+	background-color: #666666;
+}

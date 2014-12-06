@@ -1,0 +1,102 @@
+a:12:{s:8:"encoding";s:5:"UTF-8";s:5:"title";s:18:"osCommerce Add-Ons";s:4:"link";s:25:"http://www.oscommerce.com";s:11:"description";s:29:"osCommerce, Sell With Emotion";s:8:"language";s:2:"en";s:9:"copyright";s:29:"Copyright (c) 2012 osCommerce";s:14:"managingEditor";s:19:"hpdl@oscommerce.com";s:11:"image_title";s:10:"osCommerce";s:9:"image_url";s:53:"http://www.oscommerce.com/images/oscommerce_88x31.gif";s:10:"image_link";s:25:"http://www.oscommerce.com";s:5:"items";a:5:{i:0;a:4:{s:5:"title";s:26:"SEO Header Tags - RELOADED";s:4:"link";s:38:"http://addons.oscommerce.com/info/8864";s:11:"description";s:310:"THIS IS A FULL FILESET, INCLUDING SQL. IGNORE ALL PREVIOUS DOWNLOADS.<br />
+<br />
+2014 02 10<br />
+- addition of new OPTIONAL HT module for Information Pages - courtesy of Joli1811<br />
+- add nullif to all COALESCE statements to solve a display problem when contents are not exactly NULL but just blank<br />";s:7:"pubDate";s:31:"Mon, 10 Feb 2014 11:39:59 +0100";}i:1;a:4:{s:5:"title";s:15:"Dogecoin Module";s:4:"link";s:38:"http://addons.oscommerce.com/info/9007";s:11:"description";s:3239:"Simple Dogecoin Payment Module for CRE Loaded &amp; OSCommerce<br />
+by Jean-Francois Laloux jeanfrancois@laloux.me<br />
+<br />
+from an original work by Marc Rogivue www.KULTUhR.net info@kultuhr.net<br />
+with Simple Bitcoin Payment Module<br />
+<br />
+Dogecoin Donation Address DU1Bh6v581DPnNqDZYKNHnUim619FZ2729<br />
+  <br />
+Released under the GNU General Public License <br />
+<br />
+----------------------------------------------------------------------------------------------------------------<br />
+<br />
+This is a very simple and basic module to accept Dogecoin Payments on CRE Loaded.<br />
+I installed it on CRE V5 and V6 but it should also run on OSCommerce and other CRE Versions.<br />
+<br />
+Basically all it does is that after an order it sends your customer an email with order confirmation <br />
+and your Dogecoin Address as well as a QR Code to your DOGE account number.<br />
+<br />
+You have to check and record the incoming of Dogecoin funds yourself as the module does NOT automatically<br />
+monitor your Dogecoin Address! It is therefore only suitable for shops where you receive only few orders.<br />
+The advantage  is, that the setup and installation is very easy and can be done in a couple of minutes only.<br />
+Besides a working Dogecoin wallet and a Dogecoin Address/QR code, there are no prerequisites!<br />
+<br />
+Installation:<br />
+1. Copy the attached files into your CRE folders. <br />
+   They are all new files, so nothing will be overwritten.<br />
+   <br />
+2. Replace my QR code in the images folder with your own and rename it to your own account number! <br />
+   Leave it in the PNG format.<br />
+<br />
+3. In admin, go to Modules -&gt; Payment -&gt; Dogecoin Module and Install the Module<br />
+<br />
+4. Click on Edit, replace my Dogecoin Address with your own and set the other settings according to your needs.<br />
+<br />
+5. After clicking on Update, your QR Code should appear. If not, check your DOGE account number and whether you <br />
+   placed your QR code file in the image directory and named it according to your own DOGE Address with PNG format.<br />
+   <br />
+6. In admin, go to Localization -&gt; Currencies -&gt; New Currency and add Dogecoin:<br />
+   Title: Dogecoin<br />
+   Code: DOGE<br />
+   Symbol Left: DOGE<br />
+   Symbol Right: <br />
+   Decimal Point: .<br />
+   Thousands Point: ,<br />
+   Decimal Places: 8<br />
+<br />
+   For Example as of 02/09/2014<br />
+   Value: 814.332247557<br />
+   USD30 = DOGE24429.9674267<br />
+   <br />
+   You may consider using a CRON job to update your currencies on a daily basis!<br />
+   <br />
+That's it!<br />
+Don't forget the Dogecoin Donation Address DU1Bh6v581DPnNqDZYKNHnUim619FZ2729<br />
+<br />
+Thank you, Jean-Francois Laloux<br />
+   <br />
+   <br />
+Optionals:<br />
+- Add a CRON job to update your currencies automatically on regular intervals<br />
+- Add a special Order Status, for example &quot;Awaiting DOGE Payment&quot; and update your DOGE module accordingly<br />
+- Update your FAQ to reflect that you accept Dogecoins as payments<br />
+- Update your Mainpage, foot, or header to reflect that you accept Dogecoins as payments (doge.png is the official DOGE logo and is included in the image folder)";s:7:"pubDate";s:31:"Sun, 09 Feb 2014 23:58:55 +0100";}i:2;a:4:{s:5:"title";s:12:"Scroll boxes";s:4:"link";s:38:"http://addons.oscommerce.com/info/8065";s:11:"description";s:703:"Very nice contrib!<br />
+Added a few changes, making it possible to make all configuration settings (scroll direction, speed, delay or length of the displayed product description) in the admin.<br />
+Thanks to Tsimi, who made a lot of work for these changes.<br />
+----------------------------------------------------------------------------------------------<br />
+Eine wirkliche tolle Contrib.<br />
+Ein paar kleine &Auml;nderungen vorgenommen, die es erlauben, alle Konfigurationseinstellungen (Scroll-Richtung, -Geschwindigkeit, -Delay oder L&auml;nge des angezeigten Ausschnitts der Produktbeschreibung) direkt im Admin vorzunehmen.<br />
+Dank an Tsimi, der dabei die meiste Arbeit gemacht hat. :-)";s:7:"pubDate";s:31:"Sun, 09 Feb 2014 16:28:50 +0100";}i:3;a:4:{s:5:"title";s:18:"Invoice Editor 1.0";s:4:"link";s:38:"http://addons.oscommerce.com/info/8885";s:11:"description";s:1144:"Erweiterung f&uuml;r den Invoice Editor zur Verwaltung von mit dem Invoice Editor erstellten pdf-Rechnungen.<br />
+<br />
+Features:<br />
+<br />
+- Anzeige aller Bestellungen mit Bestell-Nr., Kundenname, Bestelldatum und Rechnungsnummer<br />
+- Option zur Selektion aller Rechnungen eines Kunden<br />
+- M&ouml;glichkeit, einzelne Rechnung aufzurufen <br />
+- L&ouml;sch-Funktion (pdf-Rechnung wird aus der Datenbank und vom Server gel&ouml;scht)<br />
+- Link zur Bestellverwaltung<br />
+- Link zum Order Editor<br />
+<br />
+--------------------------------------------------------------------------------------------------------------------------------------------------<br />
+<br />
+Extension for the Invoice editor to manage pdf invoices created with the Invoice Editor.<br />
+<br />
+Features:<br />
+<br />
+- Display of all orders with order no, customer name, order date and invoice number.<br />
+- Option to select all invoices of a customer<br />
+- Ability to call individual invoices<br />
+- Delete function (pdf invoice is deleted from the database and from the server)<br />
+- Link to Order Management<br />
+- Link to Order Editor<br />";s:7:"pubDate";s:31:"Sun, 09 Feb 2014 15:29:10 +0100";}i:4;a:4:{s:5:"title";s:14:"Chemo Compress";s:4:"link";s:38:"http://addons.oscommerce.com/info/8928";s:11:"description";s:328:"There was a typo in typo in the installation instructions. <br />
+<br />
+Please change :<br />
+$buffer = trim(preg_replace(array('/((?)n)[s]+/m', '/&gt;s+&lt;'), $buffer));<br />
+to: <br />
+$buffer = trim(preg_replace(array('/((?&lt;!?&gt;)n)[s]+/m', '/&gt;s+&lt;/'), array('1', '&gt;&lt;'), $buffer));<br />
+<br />
+Full Package";s:7:"pubDate";s:31:"Sat, 08 Feb 2014 19:13:57 +0100";}}s:11:"items_count";i:5;}
